@@ -1,0 +1,15 @@
+.card{
+    /* border: violet 2px solid; */
+    width: 80vw; 
+    text-align: center;
+    margin-top: 8vh;
+    margin-left: 20vw;
+    justify-content:start;
+    align-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+   
+}
+
+

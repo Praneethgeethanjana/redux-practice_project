@@ -1,0 +1,16 @@
+.card{
+    /* border: violet 2px solid; */
+    width: 80vw; 
+    text-align: center;
+    /* background-color: rgb(75, 49, 75); */
+    position: absolute;
+    top:0;
+    justify-content:start;
+    align-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+}
+
+

@@ -1,0 +1,60 @@
+header{
+    width: 100vw;
+    height: 8vh;
+    top: 0;
+    background-color: rgb(35, 38, 63);
+    box-shadow: 0px 2px 4px 0px rgb(56, 56, 95);
+    position:fixed;
+    z-index:10 ;
+    
+    
+}
+
+#logbtn{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color:rgb(240, 240, 240);
+    color: rgb(25, 38, 114);
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 90%;
+
+}
+
+#logbtn:hover{
+    background-color:  rgb(0, 133, 241) ;
+    color: rgb(245, 245, 245);
+}
+
+.side-nav{
+    width: 20vw;
+    height: 92vh;
+    background-color:   rgb(72, 72, 73);
+    box-shadow: 0px 4px 2px 2px  rgb(52, 50, 58);
+    top: 8vh;
+    position:fixed;
+    
+    
+}
+
+
+.tab{
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+    outline:none;
+    margin-top: 10%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: rgb(22, 22, 194);
+}
+
+.tab:hover{
+    background-color: rgb(89, 89, 209);
+    color: white;
+    cursor: pointer;
+}

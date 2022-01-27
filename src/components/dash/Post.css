@@ -1,0 +1,19 @@
+.postItem{
+    width: 350px;
+    border: rgb(163, 73, 73) 1px solid;
+    height: 270px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(75, 49, 75);
+}
+
+.postItem:hover{
+    cursor: pointer;
+}
+
+h4{
+    margin-top: 25px;
+    color: yellow;
+    font-size: 0.8rem;
+  
+}
