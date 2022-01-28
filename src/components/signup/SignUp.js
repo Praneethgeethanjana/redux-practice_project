@@ -72,7 +72,7 @@ const SignUp = ({ setScreenIndex }) => {
       errors.mobile = "Mobile is required!";
     } else if (!phoneReg.test(values.mobile)) {
       errors.mobile = "Please enter a valid mobile number";
-    } else if (isAlreadyUsedMobile(values.mobile)) {
+    } else if (isAlreadyUsedMobile(values)) {
       errors.mobile = "Mobile number Already Used";
     }
 
