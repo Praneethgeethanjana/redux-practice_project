@@ -4,7 +4,6 @@ import Dash from "./components/dash/Dash";
 import { useState } from "react/cjs/react.development";
 
 
-
 function App() {
   const [screenIndex,setScreenIndex]= useState(1);
 
